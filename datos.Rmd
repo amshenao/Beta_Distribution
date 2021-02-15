@@ -1,0 +1,14 @@
+<center>
+
+
+![](C:\Users\s540\Documents\2019-02\APLICACION\APLICACION 2\FINAL\nuevo.png) 
+
+</center>
+
+
+This Shiny App was created by 
+
+- Ana María Sánchez Henao 
+- Freddy Hernández Barajas
+
+at University National of Colombia. 

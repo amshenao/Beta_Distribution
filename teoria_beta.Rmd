@@ -1,0 +1,33 @@
+
+# Beta distribution
+<div style="text-align: justify">
+  
+The Beta distribution is attributed to Karl Pearson (27 March 1857-27 April 1936) an influential English mathematician. The Beta distribution is a type of probability distribution defined on the interval $0<x<1$ paramametrized by two positive shape parameters, denoted by $\alpha$ and $\beta$;.
+  
+This distribution represents a family of probabilities and is a versatile way to represent outcomes for percentages or proportions. 
+  
+### Density
+  
+If $X\sim Beta (\alpha ,\beta )$, then the density of X is:
+  
+$$f(x;\alpha,\beta)=   \frac {{ \Gamma (\alpha +\beta ) }{ x }^{ \alpha -1 }{(1-x) }^{ \beta -1 } } { \Gamma (\alpha )\Gamma (\beta ) }$$
+[to more information](https://en.wikipedia.org/wiki/Gamma_function)
+
+where $\quad \alpha >0,\quad\beta>0$, $\quad$ $0\le x\le1$
+  
+R has the built in function __dbeta__ to compute this density.
+    
+### Special Case
+    
+The Uniform (0, 1) distribution is a special case of a two parameter family called the Beta $(α=0, β=1)$ distribution, in the same way, the Beta (1, 1) distribution is the same as the Uniform (0, 1) distribution.
+    
+$$f(x)= {\frac { \Gamma (\alpha +\beta ) }{ \Gamma (\alpha )\Gamma (\beta ) }}{ { x }^{ \alpha -1 }{ (1-x) }^{ \beta -1 } }; \quad if  \quad 0<x < 1$$
+
+For this distribution the $\mu$ and $\sigma^2$ can be calculate using the following expressions:
+
+$\mu = \frac{\alpha}{\alpha +\beta}$
+
+$\sigma^2=\frac{\alpha\beta}{(\alpha +\beta)^2(\alpha +\beta+1)}$    
+    
+    
+<div/>
